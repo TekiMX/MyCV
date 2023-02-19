@@ -12,8 +12,10 @@ header{
 }
 header img{
     height: 100%;
+    width: 600px;
     object-fit: cover;
 }
+
 .Encabezado{
     width: auto;
     background-color: #257c97;
@@ -40,10 +42,33 @@ h1{
     font-size: 40px;
 }
 
-.DatosContacto{
-    width: auto;
-    background-color: #d4e6f4;
+.MainSite{
+    display: flex;
+    flex-direction: row-reverse;
+}
 
+.SiteBody{
+    padding-left: 2%;
+    width: auto;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(122, 181, 241);
+    }
+    .SiteBody h2{
+        margin-top: 20px;
+    }
+  .SiteBody p, .SiteBody ul, .SiteBody ol, .SiteBody h3{
+        padding-left: 25px;
+    }
+
+
+.AsidePanel{
+    padding-left: 10px;
+    list-style-position: inside;
+    background-color: rgb(228, 214, 245);
+    width: 600px;
+    height: 100%;
     }
 
 footer{

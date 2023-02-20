@@ -8,11 +8,11 @@ header{
     width: auto;
     height: 300px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 header img{
     height: 100%;
-    width: 600px;
+    width: 700px;
     object-fit: cover;
 }
 
@@ -44,7 +44,7 @@ h1{
 
 .MainSite{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .SiteBody{
@@ -60,14 +60,14 @@ h1{
     }
   .SiteBody p, .SiteBody ul, .SiteBody ol, .SiteBody h3{
         padding-left: 25px;
-    }
+}
 
 
 .AsidePanel{
     padding-left: 10px;
     list-style-position: inside;
     background-color: rgb(228, 214, 245);
-    width: 600px;
+    width: 700px;
     height: 100%;
     }
 

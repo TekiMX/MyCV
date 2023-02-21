@@ -4,16 +4,15 @@
     box-sizing: border-box;
 }
 
-header{
-    width: auto;
-    height: 300px;
+.SiteHeader{    
     display: flex;
     flex-direction: row;
-}
-header img{
-    height: 100%;
-    width: 700px;
-    object-fit: cover;
+    height: 300px;
+    }
+
+.ImagenEncabezado{    
+    display: flex;
+    max-width: 300px;
 }
 
 .Encabezado{
@@ -22,14 +21,15 @@ header img{
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     align-items: flex-end;
-    padding: 50px;
+    height: auto;
+    padding: 2%;
+    justify-content: space-between;
 }
 
 .Encabezado h1{
     display: flex;
-    align-self: flex-end;
+    align-self: flex-start;
 }
 
 .AcercaDeMi{
@@ -45,6 +45,11 @@ h1{
 .MainSite{
     display: flex;
     flex-direction: row;
+    width: auto;
+    height: auto;
+}
+.MainSite h2{
+    padding-top: 1%;
 }
 
 .SiteBody{
@@ -62,15 +67,44 @@ h1{
         padding-left: 25px;
 }
 
+.Estudios li{
+    font: bolder;
+    font-size: larger;
+    font-style: italic;
+}
+
+.ExperienciaLaboral li{
+    font: bolder;
+    font-size: larger;
+    font-style: italic;
+}
 
 .AsidePanel{
-    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    padding: 5% 0 0 2%;
     list-style-position: inside;
     background-color: rgb(228, 214, 245);
-    width: 700px;
-    height: 100%;
+    max-width: 300px;
+    
+    }
+    .AsidePanel h2{
+        margin: 0 0 15% 0;
+    }
+    .AsidePanel h3{
+        margin-top: 20%;
+    }
+    .AsidePanel li{
+        margin-top: 10%;
+    }
+    .AsidePanel p{
+        margin-top: 10%;
     }
 
+.Hobbies p{
+    padding-bottom: 2%;
+}
 footer{
     font-style: italic;
 }

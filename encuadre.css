@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.HeaderContent{
+    display: flex;
+}
+
+.HeaderContentFoto{
+    background-color: rgb(43, 143, 204);
+
+}
+
+.HeaderContentTexto{
+    background-color: rgb(178, 214, 245);
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    padding-left: 2%;
+}
